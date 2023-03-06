@@ -1,0 +1,125 @@
+:root {
+	--dark: #374151;
+	--darker: #1F2937;
+	--darkest: #111827;
+	--grey: #6B7280;
+	--pink: #EC4899;
+	--purple: #8B5CF6;
+	--light: #EEE;
+    --brown:rgb(167, 92, 92);
+    --brown1:rgb(190, 130, 130);
+}
+.loginpage{
+   display: flex;
+   flex-direction: column;
+   padding: 200px;
+   padding-left: 650px;
+   background-image: linear-gradient(to right, var(--grey), var(--brown));
+   
+
+}
+.emailinput{
+    width: 300px;
+    border: 3px solid  white;
+    background-color:#9ba4b1;
+
+    border-radius: 2px;
+    height: 50px;
+    color: black;
+    margin-bottom: 20px;
+    font-size: 20px;
+
+    
+}
+.emailinput::placeholder{  
+    color: black;
+   padding: 5px;
+}
+
+.passwordinput{
+    width: 300px;
+    border: 3px solid white;
+    background-color:#9ba4b1;
+    border-radius: 2px;
+    height: 50px;
+    color: black;
+    margin-bottom: 20px;
+    font-size: 20px;
+
+
+}
+.passwordinput::placeholder{  
+    color: black;
+   padding: 5px;
+
+}
+.loginbtn{
+    width: 300px;
+    border: 2px solid  white;
+    border-radius: 50px;
+    height: 50px;
+    color: black;
+    background-color:rgb(145, 134, 134);
+    margin-top: 20px;
+    font-size: 17px;
+    font-size: 20px;
+
+    
+
+}
+.registerbtn{
+    width: 300px;
+    border: 2px solid  white;
+    border-radius: 50px;
+    height: 50px;
+    color: black;
+    background-color:rgb(145, 134, 134);
+    margin-top: 20px;
+    font-size: 17px;
+    font-size: 20px;
+
+
+}
+.loginbtn:hover{
+    border: 2px solid rgb(8, 79, 8);
+    border-radius: 50px;
+    height: 50px;
+    width: 300px;
+    background-color: black;
+    color:rgb(110, 100, 100);
+    margin-top: 20px;
+    font-size: 17px;
+    border-color: grey;
+    font-size: 20px;
+
+
+}
+.registerbtn:hover{
+    border: 2px solid rgb(8, 79, 8);
+    border-radius: 50px;
+    height: 50px;
+    width: 300px;
+    background-color: black;
+    color:rgb(110, 100, 100);
+    margin-top: 20px;
+    font-size: 17px;
+    border-color: grey;
+    font-size: 20px;
+
+
+}
+.logo{
+    padding-top: 50px;
+    padding-left: 70px;
+
+}
+.loginword{
+    
+    padding-bottom: 20px;
+    padding-left: 90px;
+    
+}
+.donthaveactn{
+    padding-top: 30px;
+    padding-left: 90px;
+}

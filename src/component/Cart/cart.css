@@ -1,0 +1,9 @@
+#proceedcart:hover{
+    color: white;
+    background-color: black;
+}
+#proceedcart{
+    color: black;
+    background-color:white;
+    border-color: black;
+}
